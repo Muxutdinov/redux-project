@@ -1,8 +1,8 @@
 import React from 'react';
-import './App.css'
+import './index.scss'
 
 const App = () => {
-  return <div></div>;
+  return <div>Hello from Jaxongir</div>;
 };
 
 export default App;
