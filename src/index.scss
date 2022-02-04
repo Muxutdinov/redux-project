@@ -4,3 +4,21 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.app{
+  height: 100vh;
+  overflow: scroll;
+  background: url('./assets/imgs/bg.jpg') center / cover no-repeat;
+}
+
+
+.content{
+  display: grid;
+  grid-template-columns: 500px 450px;
+  max-width: 80%;
+  margin: 0 auto;
+  padding-top: 50px;
+  &_page{
+    padding-left: 40px;
+  }
+}
