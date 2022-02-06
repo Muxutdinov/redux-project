@@ -21,6 +21,12 @@ const reducer = (state = initialState,action)=>{
                 ...state,
                 newsLoadingStatus:"error"
             }
+        case "ADD_NEWS":
+           const newAddNewsList = [...state.news,action.payload]
+           return {
+               ...state,
+               news:newAddNewsList
+           }
         default : return state
     }
 }

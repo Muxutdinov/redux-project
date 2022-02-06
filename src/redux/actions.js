@@ -19,4 +19,10 @@ export const newsFetchingError = ()=>{
     }
 }
 
+export const newsAdd = (news)=>{
+    return{
+        type:"ADD_NEWS",
+        payload:news
+    }
+}
 
